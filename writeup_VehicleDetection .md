@@ -116,9 +116,10 @@ To reduce false Positives. we compute Boxes over 10 frames and apply a higher th
 This can be still enhance by checking over consecutive frames if detections are Positive 
 <img src="output_images\frame06.jpeg"> 
 
-Here is the link to video: (.\output_images\project_video.mp4)
+Here is the link to video: 
 
-
+<video width="320" height="240" controls>
+  <source src="/output_images/out_project_video_subclip.mp4" type="video/mp4">
 
 Well the project was good for understanding classifiers and Pattern detection in same class of objects.
 Most of the h=job was stitching up of code given in our lessons.
