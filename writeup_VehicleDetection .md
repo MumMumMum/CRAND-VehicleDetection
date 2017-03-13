@@ -116,10 +116,7 @@ To reduce false Positives. we compute Boxes over 10 frames and apply a higher th
 This can be still enhance by checking over consecutive frames if detections are Positive 
 <img src="output_images\frame06.jpeg"> 
 
-<video width="320" height="240" controls>
-  <source src="output_images\out_project_video_subclip.mp4" type="video/mp4">
-</video>
-
+Here is the link to video: (.\output_images\project_video.mp4)
 
 
 
