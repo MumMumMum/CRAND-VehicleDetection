@@ -118,10 +118,14 @@ This can be still enhance by checking over consecutive frames if detections are 
 
 Here is the link to video: 
 
-<video width="320" height="240" controls>
+
+  
+  <video width="320" height="240" controls>
   <source src="/output_images/out_project_video_subclip.mp4" type="video/mp4">
+  </video>
 
 Well the project was good for understanding classifiers and Pattern detection in same class of objects.
-Most of the h=job was stitching up of code given in our lessons.
-The only challange was smoothing the transition over frames .
-Detection and scaling windows .Scaling the search also can be done improve results.
+Most of the job was stitching up of code given in our lessons.
+The challange was smoothing the transition over frames . Drawing the
+Detection over the car object exactly and using scaling windows .Scaling the search also can be done improve results.
+There are false detction which can be eliminated by using better averaging over frames.Having a class to hold boxes over each frame. Compare consecutive frames and add filters. Making it more robust than this
